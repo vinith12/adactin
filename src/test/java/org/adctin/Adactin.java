@@ -31,6 +31,7 @@ public class Adactin extends BaseClass {
 		 lo = new LoginPage();		
 		sendkeys(lo.getUsername(), usr);
 		sendkeys(lo.getPassword(), pse);
+		System.out.println(gettext(lo.getUsername()));
 //		WebElement unm = driver.findElement(By.id("email"));
 //		unm.sendKeys(usr);
 //		WebElement pss = driver.findElement(By.id("pass"));
