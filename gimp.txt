@@ -1,0 +1,150 @@
+[
+  {
+    "source": "The user should be in fb page",
+    "steps": [
+      {
+        "name": "The user should be in fb page",
+        "aggregatedDurations": {
+          "median": 0.000153200,
+          "average": 0.000153200
+        },
+        "durations": [
+          {
+            "duration": 0.0002777,
+            "location": "file:src/test/resources/Features/login.feature:5"
+          },
+          {
+            "duration": 0.0000287,
+            "location": "file:src/test/resources/Features/login.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should enter the {string} and {string}",
+    "steps": [
+      {
+        "name": "The user should enter the \"vinith\" and \"ngfre\"",
+        "aggregatedDurations": {
+          "median": 0.1785515,
+          "average": 0.178551500
+        },
+        "durations": [
+          {
+            "duration": 0.1785515,
+            "location": "file:src/test/resources/Features/login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should click the login button",
+    "steps": [
+      {
+        "name": "The user should click the login button",
+        "aggregatedDurations": {
+          "median": 0.0831554,
+          "average": 0.083155400
+        },
+        "durations": [
+          {
+            "duration": 0.0831554,
+            "location": "file:src/test/resources/Features/login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user in invalid page",
+    "steps": [
+      {
+        "name": "The user in invalid page",
+        "aggregatedDurations": {
+          "median": 0.0000233,
+          "average": 0.000023300
+        },
+        "durations": [
+          {
+            "duration": 0.0000233,
+            "location": "file:src/test/resources/Features/login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should click the register button",
+    "steps": [
+      {
+        "name": "The user should click the register button",
+        "aggregatedDurations": {
+          "median": 0.0667513,
+          "average": 0.066751300
+        },
+        "durations": [
+          {
+            "duration": 0.0667513,
+            "location": "file:src/test/resources/Features/login.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should enter the frstnam and lstnam",
+    "steps": [
+      {
+        "name": "The user should enter the frstnam and lstnam",
+        "aggregatedDurations": {
+          "median": 0.7323339,
+          "average": 0.732333900
+        },
+        "durations": [
+          {
+            "duration": 0.7323339,
+            "location": "file:src/test/resources/Features/login.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should click the signup button",
+    "steps": [
+      {
+        "name": "The user should click the signup button",
+        "aggregatedDurations": {
+          "median": 0.1116224,
+          "average": 0.111622400
+        },
+        "durations": [
+          {
+            "duration": 0.1116224,
+            "location": "file:src/test/resources/Features/login.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user in valid page",
+    "steps": [
+      {
+        "name": "The user in valid page",
+        "aggregatedDurations": {
+          "median": 0.0000397,
+          "average": 0.000039700
+        },
+        "durations": [
+          {
+            "duration": 0.0000397,
+            "location": "file:src/test/resources/Features/login.feature:19"
+          }
+        ]
+      }
+    ]
+  }
+]

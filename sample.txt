@@ -1,0 +1,22 @@
+Feature: To Validate the login functionality of FB Application
+
+  Scenario Outline: To validate the login with invalid credentials # src/test/resources/Features/login.feature:4
+    Given The user should be in fb page
+    When The user should enter the "<usnam>" and "<pase>"
+    And The user should click the login button
+    Then The user in invalid page
+
+    Examples: 
+
+  Scenario Outline: To validate the login with invalid credentials # src/test/resources/Features/login.feature:12
+    Given The user should be in fb page                            # Adactin.the_user_should_be_in_fb_page()
+    When The user should enter the "vinith" and "ngfre"            # Adactin.the_user_should_enter_the_and(String,String)
+    And The user should click the login button                     # Adactin.the_user_should_click_the_login_button()
+    Then The user in invalid page                                  # Adactin.the_user_in_invalid_page()
+
+  Scenario: To validate the registration              # src/test/resources/Features/login.feature:14
+    Given The user should be in fb page               # Adactin.the_user_should_be_in_fb_page()
+    And The user should click the register button     # Adactin.the_user_should_click_the_register_button()
+    When The user should enter the frstnam and lstnam # Adactin.the_user_should_enter_the_frstnam_and_lstnam()
+    And The user should click the signup button       # Adactin.the_user_should_click_the_signup_button()
+    Then The user in valid page                       # Adactin.the_user_in_valid_page()

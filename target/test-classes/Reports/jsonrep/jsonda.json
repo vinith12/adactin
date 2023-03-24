@@ -1,0 +1,197 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-13T13:42:15.969Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7427656600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To validate the login with invalid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-fb-application;to-validate-the-login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 636254700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftetr()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1303800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should be in fb page",
+            "match": {
+              "location": "Adactin.the_user_should_be_in_fb_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 200788600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should enter the \"vinith\" and \"ngfre\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vinith\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"ngfre\"",
+                  "offset": 39
+                }
+              ],
+              "location": "Adactin.the_user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4523631900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user should click the login button",
+            "match": {
+              "location": "Adactin.the_user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 554800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user in invalid page",
+            "match": {
+              "location": "Adactin.the_user_in_invalid_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-13T13:42:28.803Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5770823700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To validate the registration",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-fb-application;to-validate-the-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 628374900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftetr()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 380300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user should be in fb page",
+            "match": {
+              "location": "Adactin.the_user_should_be_in_fb_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 74793200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user should click the register button",
+            "match": {
+              "location": "Adactin.the_user_should_click_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 806905500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user should enter the frstnam and lstnam",
+            "match": {
+              "location": "Adactin.the_user_should_enter_the_frstnam_and_lstnam()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83737100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user should click the signup button",
+            "match": {
+              "location": "Adactin.the_user_should_click_the_signup_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 659900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user in valid page",
+            "match": {
+              "location": "Adactin.the_user_in_valid_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the login functionality of FB Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-fb-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
